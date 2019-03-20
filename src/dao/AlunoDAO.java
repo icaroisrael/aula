@@ -107,7 +107,7 @@ public class AlunoDAO {
             ps.setString(2, "F");
             ps.setInt(3, numero);
             if(ps.executeUpdate() !=0){
-                System.out.println("Dados alterados com sucess");
+                System.out.println("Dados alterados com sucesso");
             }
         } catch (Exception e) {
         }
